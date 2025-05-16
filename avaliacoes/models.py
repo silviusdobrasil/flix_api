@@ -11,7 +11,7 @@ NOTAS = (
 
 )
 
-class Avalicoes(models.Model):
+class Avaliacoes(models.Model):
 
     filme = models.ForeignKey(Filmes, 
                               on_delete=models.PROTECT, 

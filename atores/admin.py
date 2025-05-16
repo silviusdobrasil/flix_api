@@ -3,7 +3,7 @@ from .models import Atores
 
 @admin.register(Atores)
 class GeneroAdmin(admin.ModelAdmin):
-    list_display = ('id', 'nome')
+    list_display = ('id', 'nome', 'aniversario', 'nacionalidade')
     search_fields = ('nome',)
     list_filter = ('nome',)
     ordering = ('nome',)
